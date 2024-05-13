@@ -36,6 +36,7 @@ critical_operation_map = {"deleteProtection": "/backupFabrics/protectionContaine
                           "disableSoftDelete": "/backupconfig/write",
                           "RecoveryServicesDisableImmutability": "/write#reduceImmutabilityState",
                           "RecoveryServicesStopProtection": "/backupFabrics/protectionContainers/protectedItems/write#stopProtectionWithRetainData",
+                          "RecoveryServicesRestore": "/backupFabrics/protectionContainers/protectedItems/recoveryPoints/restore/action",
                           "DisableMUA": "/backupResourceGuardProxies/delete",
                           "DeleteBackupInstance": "/backupInstances/delete",
                           "DataProtectionDisableImmutability": "/write#reduceImmutabilityState",
